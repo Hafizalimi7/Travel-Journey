@@ -8,8 +8,9 @@ body {
 }
 
 nav {
-  height: 70px;
+  /* height: 70px; */
   display: flex;
+  justify-content: center;
   padding: 20px 36px;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
@@ -21,14 +22,13 @@ nav {
 .card {
   width: 200px;
   font-size: 12px;
-  flex: 0 0 auto;         /* ADD */
-  display: flex;          /* ADD */
-  flex-direction: column; /*ADD */
+  flex: 0 0 auto;         
+  display: flex;          
+  flex-direction: column; 
   position: relative; 
 }
 
 .card--info{
-  float:right;
   font-size:larger;
   font-style: oblique;
   
@@ -42,13 +42,15 @@ nav {
   float:right;
 }
 
-.dates {
-  font-size: medium;
-  float:right;
-}
-
-
-.title {
+/* .title {
   font-size:larger;
   font-style: oblique;
+} */
+
+.location--logo {
+  max-width:20px;
+}
+
+.date--info {
+  
 }

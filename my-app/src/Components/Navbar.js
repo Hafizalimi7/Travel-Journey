@@ -5,10 +5,8 @@ import logo from "../images/globe.png"
 export default function Navbar(){
   return (
     <nav>
-      <img src={logo} alt="globe"  className="nav--logo" />
-      <div>
-
-      </div>
+      <h1>My Travel Journal</h1>
+      <img src={logo} alt="globe"  className="nav--logo"  />
     </nav>
   )
 }
