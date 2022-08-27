@@ -16,7 +16,10 @@ export default function Card(props) {
                   {props.item.startDate} - {props.item.endDate} 
                 </div>
                   <br></br>
-                    {props.item.description}
+                    <div className="description">
+                      <p>{props.item.description}</p>
+                    </div>
+                   
         </div>
     </div>
   )

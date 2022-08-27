@@ -42,15 +42,16 @@ nav {
   float:right;
 }
 
-/* .title {
-  font-size:larger;
-  font-style: oblique;
-} */
-
 .location--logo {
   max-width:20px;
 }
 
 .date--info {
-  
+  font-weight: bold;
+}
+
+.description {
+  font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+  font-stretch: expanded;
+  text-align: left;
 }
